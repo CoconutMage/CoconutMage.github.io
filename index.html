@@ -7,6 +7,11 @@
 		<h1>Hello World</h1>
 		<p>I'm hosted with GitHub Pages.</p>
 		<button type="button" onclick="revealMessage()">Click for JavaScript execution!</button>
-		<p id="hiddenMessage" style="display:none">This is a test message!</p>
+		<div id="hiddenMessage" style="display:none">
+			<p>This is a test message!</p>
+			<p id="counterText">5</p>
+			<button type="button" id="countUpButton" onclick="countUp()">Click to increment</button>
+			<button type="button" id="countDownButton" onclick="countDown()">Click to decrement</button>
+		</div>
 	</body>
 </html>
