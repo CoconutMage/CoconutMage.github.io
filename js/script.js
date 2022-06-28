@@ -5,7 +5,7 @@ function revealMessage()
 function countUp()
 {
 	var currentVal = document.getElementById("counterText").innerHTML;
-	var newVal = currentval + 1;
+	var newVal = currentval - 1;
 	document.getElementById("counterText").innerHTML = newVal;
 }
 function countDown()
